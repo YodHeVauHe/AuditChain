@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AuditChain Pitch Deck
 
-## Getting Started
+A [Next.js](https://nextjs.org) 16 presentation deck for the AuditChain seed pitch.
+The deck is fully static — every slide is prerendered HTML and route-addressable
+(`/`, `/problem`, `/solution`, `/integrity-demo`, …), with keyboard navigation,
+a progress indicator, and per-slide animations. There are no API routes, no
+database, and no environment variables.
 
-First, run the development server:
+## Requirements
+
+- Node.js 20.9 or newer (pinned via `engines.node`)
+
+## Local development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000). Use ←/→ (or Space/Shift+Space)
+to move between slides; press `?` for the full keyboard shortcut list.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Other scripts:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build      # production build (also verifies types + static generation)
+npm run lint       # ESLint
+npm run typecheck  # tsc --noEmit
+```
 
-## Learn More
+## Deploy to Vercel
 
-To learn more about Next.js, take a look at the following resources:
+The deck deploys as a standard Next.js project — Vercel detects the framework,
+build command, and output automatically. The only thing to get right is that the
+app lives in the `PitchDeck/` subdirectory of this repository, not the repo root.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Option A — Vercel dashboard (recommended)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push this repository to GitHub (already done: `YodHeVauHe/AuditChain`).
+2. Go to [vercel.com/new](https://vercel.com/new) and import the repository.
+3. In **Build & Output Settings**, set **Root Directory** to `PitchDeck`.
+   Vercel then auto-detects Next.js and fills in `npm run build`.
+4. Click **Deploy**. No environment variables are needed.
 
-## Deploy on Vercel
+Every push to `main` deploys a new production build; pull requests get preview URLs.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Option B — Vercel CLI
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+From the `PitchDeck/` directory:
+
+```bash
+npx vercel          # preview deployment
+npx vercel --prod   # production deployment
+```
+
+The CLI creates and links the project on first run; since the deployment root is
+`PitchDeck/`, the app is detected without extra configuration.
