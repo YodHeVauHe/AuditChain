@@ -26,16 +26,16 @@ const AREAS = [
   },
 ];
 
-export default function TesAskSlide() {
+export default function AskSlide() {
   return (
-    <Slide ariaLabel="The TES ask — build, validate, prepare">
+    <Slide ariaLabel="The ask — build, validate, prepare">
       <Reveal>
-        <SectionLabel index="19" title="The TES Ask" />
+        <SectionLabel index="19" title="The Ask" />
       </Reveal>
 
       <Reveal delay={100}>
         <h2 className="mt-7 max-w-3xl font-display text-[clamp(1.9rem,4.2vw,3.5rem)] leading-[1.08] text-cream">
-          TES support moves Audit Chain from{" "}
+          Seed capital moves Audit Chain from{" "}
           <span className="text-fog italic">technical concept</span>{" "}
           <span className="text-gold-metal italic">toward validated venture.</span>
         </h2>
@@ -84,7 +84,7 @@ export default function TesAskSlide() {
             </span>
           </div>
           <p className="font-mono text-[10px] leading-relaxed tracking-[0.14em] text-smoke uppercase">
-            amounts to be finalised with MIIC — shown once real, never invented
+            amounts to be finalised — shown once real, never invented
           </p>
         </div>
       </Reveal>

@@ -325,7 +325,7 @@ export function Presentation({ slides }: { slides: SlideMeta[] }) {
           <span aria-hidden className="size-1.5 rotate-45 bg-gold" />
           <span className="text-cream/80">Audit Chain</span>
           <span className="text-smoke">/</span>
-          <span className="text-smoke">TES · MIIC</span>
+          <span className="text-smoke">Seed Pitch</span>
         </div>
       </div>
 

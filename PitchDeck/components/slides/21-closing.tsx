@@ -63,8 +63,7 @@ export default function ClosingSlide() {
 
         <Reveal delay={780}>
           <p className="mt-14 font-mono text-[9px] tracking-[0.3em] text-smoke uppercase">
-            Makerere Innovation and Incubation Centre — Technology
-            Entrepreneurship Seed · 2026
+            AuditChain — Seed Investment Presentation · 2026
           </p>
         </Reveal>
       </div>

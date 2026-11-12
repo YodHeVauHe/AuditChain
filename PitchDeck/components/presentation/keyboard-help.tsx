@@ -71,7 +71,7 @@ export function KeyboardHelp({
           ))}
         </ul>
         <p className="mt-5 text-center font-mono text-[10px] tracking-[0.25em] text-smoke uppercase">
-          Audit Chain — TES Pitch Presentation
+          Audit Chain — Seed Pitch Presentation
         </p>
       </div>
     </div>

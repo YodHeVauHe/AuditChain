@@ -17,7 +17,7 @@ import ValidationSlide from "./15-validation";
 import BusinessModelSlide from "./16-business-model";
 import WhyNowSlide from "./17-why-now";
 import MvpSlide from "./18-mvp";
-import TesAskSlide from "./19-tes-ask";
+import AskSlide from "./19-the-ask";
 import RoadmapSlide from "./20-roadmap";
 import ClosingSlide from "./21-closing";
 
@@ -40,7 +40,7 @@ export const slideIds = [
   "business-model",
   "why-now",
   "mvp",
-  "tes-ask",
+  "the-ask",
   "roadmap",
   "closing",
 ] as const;
@@ -64,7 +64,7 @@ export const slides: SlideMeta[] = [
   { id: "business-model", num: "16", title: "Business Model", component: () => <BusinessModelSlide /> },
   { id: "why-now", num: "17", title: "Why Now", component: () => <WhyNowSlide /> },
   { id: "mvp", num: "18", title: "MVP", component: () => <MvpSlide /> },
-  { id: "tes-ask", num: "19", title: "The TES Ask", component: () => <TesAskSlide /> },
+  { id: "the-ask", num: "19", title: "The Ask", component: () => <AskSlide /> },
   { id: "roadmap", num: "20", title: "Roadmap", component: () => <RoadmapSlide /> },
   { id: "closing", num: "21", title: "Closing", component: () => <ClosingSlide /> },
 ];

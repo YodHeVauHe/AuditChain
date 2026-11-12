@@ -47,7 +47,7 @@ export default function ValidationSlide() {
         </h2>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-fog md:text-base">
           No user research has been conducted yet. That is the honest starting
-          point — and the first thing TES support would change.
+          point — and the first thing seed capital would change.
         </p>
       </Reveal>
 

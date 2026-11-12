@@ -23,10 +23,10 @@ export default function CoverSlide() {
       <div className="w-full text-center">
         <Reveal>
           <p className="font-mono text-[9px] tracking-[0.4em] text-smoke uppercase md:text-[10px]">
-            Makerere Innovation and Incubation Centre
+            AuditChain
           </p>
           <p className="mt-1.5 font-mono text-[9px] tracking-[0.4em] text-gold/80 uppercase md:text-[10px]">
-            Technology Entrepreneurship Seed — Pitch
+            Seed Investment Presentation
           </p>
         </Reveal>
 
@@ -61,7 +61,7 @@ export default function CoverSlide() {
 
         <Reveal delay={600}>
           <p className="mt-16 font-mono text-[9px] tracking-[0.3em] text-smoke uppercase md:mt-20">
-            TES Pitch Presentation — September 2026
+            Investor Presentation — September 2026
           </p>
         </Reveal>
       </div>

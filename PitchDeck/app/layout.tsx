@@ -20,7 +20,7 @@ const ubuntu = Ubuntu({
 });
 
 export const metadata: Metadata = {
-  title: "Audit Chain — Technology Entrepreneurship Seed Pitch",
+  title: "Audit Chain — Seed Investment Pitch",
   description:
     "Audit Chain is a permissioned blockchain-based trust layer that records cryptographic proofs of important institutional events, allowing auditors to independently verify that evidence has not been altered after it was committed.",
 };
