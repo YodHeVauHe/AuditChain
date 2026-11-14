@@ -23,7 +23,7 @@ export default function CoverSlide() {
       <div className="w-full text-center">
         <Reveal>
           <p className="font-mono text-[9px] tracking-[0.4em] text-smoke uppercase md:text-[10px]">
-            AuditLinkTrail
+            ALT
           </p>
           <p className="mt-1.5 font-mono text-[9px] tracking-[0.4em] text-gold/80 uppercase md:text-[10px]">
             Seed Investment Presentation
