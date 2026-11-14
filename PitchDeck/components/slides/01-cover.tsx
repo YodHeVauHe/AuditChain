@@ -7,7 +7,7 @@ import { NetworkVisualization } from "@/components/visualizations/network-visual
 export default function CoverSlide() {
   return (
     <Slide
-      ariaLabel="Cover — Audit Chain"
+      ariaLabel="Cover — AuditLinkTrail"
       background={
         <>
           <div className="gold-aura absolute inset-0" />
@@ -23,7 +23,7 @@ export default function CoverSlide() {
       <div className="w-full text-center">
         <Reveal>
           <p className="font-mono text-[9px] tracking-[0.4em] text-smoke uppercase md:text-[10px]">
-            AuditChain
+            AuditLinkTrail
           </p>
           <p className="mt-1.5 font-mono text-[9px] tracking-[0.4em] text-gold/80 uppercase md:text-[10px]">
             Seed Investment Presentation
@@ -32,8 +32,8 @@ export default function CoverSlide() {
 
         <Reveal delay={150}>
           <h1 className="mt-8 font-display text-[clamp(3rem,11vw,8.75rem)] leading-[0.95] tracking-tight">
-            <span className="text-cream">Audit</span>{" "}
-            <span className="text-gold-metal italic">Chain</span>
+            <span className="text-cream">AuditLink</span>
+            <span className="text-gold-metal italic">Trail</span>
           </h1>
         </Reveal>
 
@@ -61,7 +61,7 @@ export default function CoverSlide() {
 
         <Reveal delay={600}>
           <p className="mt-16 font-mono text-[9px] tracking-[0.3em] text-smoke uppercase md:mt-20">
-            Investor Presentation — September 2026
+            Investor Presentation
           </p>
         </Reveal>
       </div>

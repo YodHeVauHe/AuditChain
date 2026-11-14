@@ -54,7 +54,7 @@ export default function InsightSlide() {
           <div className="corner-frame rounded-lg border border-gold-line bg-gradient-to-b from-gold/[0.09] to-transparent p-5 text-center lg:px-8 lg:py-7">
             <Link2 className="mx-auto size-5 text-gold-bright" strokeWidth={1.5} />
             <div className="mt-3 font-mono text-[11px] tracking-[0.22em] text-gold-bright uppercase">
-              Audit Chain
+              AuditLinkTrail
             </div>
             <div className="mt-1.5 font-mono text-[9px] leading-relaxed tracking-wider text-fog">
               cryptographic commitments

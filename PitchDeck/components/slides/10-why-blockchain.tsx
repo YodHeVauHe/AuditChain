@@ -83,11 +83,11 @@ export default function WhyBlockchainSlide() {
           </div>
         </Reveal>
 
-        {/* Audit Chain world */}
+        {/* AuditLinkTrail world */}
         <Reveal delay={360}>
           <div className="flex h-full flex-col rounded-lg border border-gold-line bg-gold/[0.04] p-5 md:p-6">
             <div className="font-mono text-[10px] tracking-[0.26em] text-gold uppercase">
-              Audit Chain — permissioned ledger
+              AuditLinkTrail — permissioned ledger
             </div>
             <div className="mt-2 flex-1">
               <ArchitectureDiagram nodes={NODES} className="mx-auto max-w-md" />

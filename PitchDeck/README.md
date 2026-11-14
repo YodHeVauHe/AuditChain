@@ -1,6 +1,6 @@
-# AuditChain Pitch Deck
+# AuditLinkTrail Pitch Deck
 
-A [Next.js](https://nextjs.org) 16 presentation deck for the AuditChain seed pitch.
+A [Next.js](https://nextjs.org) 16 presentation deck for the AuditLinkTrail seed pitch.
 The deck is fully static — every slide is prerendered HTML and route-addressable
 (`/`, `/problem`, `/solution`, `/integrity-demo`, …), with keyboard navigation,
 a progress indicator, and per-slide animations. There are no API routes, no
@@ -36,7 +36,7 @@ app lives in the `PitchDeck/` subdirectory of this repository, not the repo root
 
 ### Option A — Vercel dashboard (recommended)
 
-1. Push this repository to GitHub (already done: `YodHeVauHe/AuditChain`).
+1. Push this repository to GitHub (already done: `YodHeVauHe/AuditLinkTrail`).
 2. Go to [vercel.com/new](https://vercel.com/new) and import the repository.
 3. In **Build & Output Settings**, set **Root Directory** to `PitchDeck`.
    Vercel then auto-detects Next.js and fills in `npm run build`.

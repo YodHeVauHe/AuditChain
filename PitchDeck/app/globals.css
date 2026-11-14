@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ---------------------------------------------------------------------------
-   Audit Chain — design tokens
+   AuditLinkTrail — design tokens
    Dark institutional palette: near-black charcoal, metallic gold, warm white.
 --------------------------------------------------------------------------- */
 
@@ -175,15 +175,15 @@ body {
 @keyframes stamp-in {
   0% {
     opacity: 0;
-    transform: scale(1.35) rotate(-6deg);
+    transform: scale(1.35);
   }
   60% {
     opacity: 1;
-    transform: scale(0.97) rotate(-6deg);
+    transform: scale(0.97);
   }
   100% {
     opacity: 1;
-    transform: scale(1) rotate(-6deg);
+    transform: scale(1);
   }
 }
 .stamp-in {

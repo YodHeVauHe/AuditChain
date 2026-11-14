@@ -20,7 +20,7 @@ const PILLARS = [
   {
     icon: RefreshCw,
     title: "Non-disruptive",
-    note: "existing systems keep running exactly as they are — Audit Chain commits alongside them, not instead of them",
+    note: "existing systems keep running exactly as they are — AuditLinkTrail commits alongside them, not instead of them",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function InnovationSlide() {
           Existing systems generate the data.
           <br />
           <span className="text-gold-metal italic">
-            Audit Chain provides the integrity layer.
+            AuditLinkTrail provides the integrity layer.
           </span>
         </h2>
       </Reveal>

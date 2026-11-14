@@ -8,7 +8,7 @@ import { NetworkVisualization } from "@/components/visualizations/network-visual
 export default function ClosingSlide() {
   return (
     <Slide
-      ariaLabel="Closing — Audit Chain"
+      ariaLabel="Closing — AuditLinkTrail"
       background={
         <>
           <div className="gold-aura absolute inset-0" />
@@ -36,8 +36,8 @@ export default function ClosingSlide() {
 
         <Reveal delay={360}>
           <h2 className="mt-10 font-display text-[clamp(2.4rem,8vw,6.5rem)] leading-[0.95] tracking-tight">
-            <span className="text-cream">Audit</span>{" "}
-            <span className="text-gold-metal italic">Chain</span>
+            <span className="text-cream">AuditLink</span>
+            <span className="text-gold-metal italic">Trail</span>
           </h2>
         </Reveal>
 
@@ -63,7 +63,7 @@ export default function ClosingSlide() {
 
         <Reveal delay={780}>
           <p className="mt-14 font-mono text-[9px] tracking-[0.3em] text-smoke uppercase">
-            AuditChain — Seed Investment Presentation · 2026
+            AuditLinkTrail — Seed Investment Presentation · 2026
           </p>
         </Reveal>
       </div>

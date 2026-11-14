@@ -47,7 +47,7 @@ export default function UgandaSlide() {
         </h2>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-fog md:text-base">
           Every digitised process produces records that must later stand up to
-          scrutiny. Audit Chain is designed for exactly that environment:
+          scrutiny. AuditLinkTrail is designed for exactly that environment:
           locally deployable, permissioned, and independent of any public
           cryptocurrency network.
         </p>
@@ -75,7 +75,7 @@ export default function UgandaSlide() {
             <div className="corner-frame flex items-center gap-2.5 rounded-md border border-gold-line bg-gradient-to-b from-gold/[0.1] to-transparent px-6 py-4">
               <Link2 className="size-4 text-gold-bright" />
               <span className="font-mono text-[11px] tracking-[0.26em] text-gold-bright uppercase">
-                Audit Chain
+                AuditLinkTrail
               </span>
             </div>
             <ArrowRight aria-hidden className="size-4 text-gold/60 lg:rotate-90" />

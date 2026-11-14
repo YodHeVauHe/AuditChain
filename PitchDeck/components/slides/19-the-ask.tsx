@@ -35,7 +35,7 @@ export default function AskSlide() {
 
       <Reveal delay={100}>
         <h2 className="mt-7 max-w-3xl font-display text-[clamp(1.9rem,4.2vw,3.5rem)] leading-[1.08] text-cream">
-          Seed capital moves Audit Chain from{" "}
+          Seed capital moves AuditLinkTrail from{" "}
           <span className="text-fog italic">technical concept</span>{" "}
           <span className="text-gold-metal italic">toward validated venture.</span>
         </h2>

@@ -15,7 +15,7 @@ const TAMPERED_AMOUNT = 120_000_000;
 
 function contractDocument(amountUgx: number): string {
   return [
-    "AUDIT-CHAIN DEMO — PROCUREMENT CONTRACT (SYNTHETIC)",
+    "AUDITLINKTRAIL DEMO — PROCUREMENT CONTRACT (SYNTHETIC)",
     "reference: PROC/2026/0417",
     "supplier: Synthetic Supplier Ltd",
     "description: Supply of ICT equipment",
@@ -196,7 +196,7 @@ export default function IntegrityDemoSlide() {
         <div className="mt-7 flex items-start gap-2.5 border-t border-line pt-4">
           <TriangleAlert aria-hidden className="mt-0.5 size-3.5 shrink-0 text-smoke" />
           <p className="text-[11px] leading-relaxed text-smoke md:text-xs">
-            Audit Chain proves the integrity of committed evidence relative to
+            AuditLinkTrail proves the integrity of committed evidence relative to
             its cryptographic commitment — it does not prove that the underlying
             event occurred.
           </p>

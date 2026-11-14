@@ -323,7 +323,7 @@ export function Presentation({ slides }: { slides: SlideMeta[] }) {
       >
         <div className="flex items-center gap-2.5 font-mono text-[10px] tracking-[0.3em] uppercase">
           <span aria-hidden className="size-1.5 rotate-45 bg-gold" />
-          <span className="text-cream/80">Audit Chain</span>
+          <span className="text-cream/80">AuditLinkTrail</span>
           <span className="text-smoke">/</span>
           <span className="text-smoke">Seed Pitch</span>
         </div>

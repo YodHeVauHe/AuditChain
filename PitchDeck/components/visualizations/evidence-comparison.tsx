@@ -118,7 +118,7 @@ export function EvidenceComparison({
       >
         {state === "failed" ? (
           <>
-            <div className="stamp-in flex shrink-0 -rotate-6 items-center gap-2 rounded-sm border-2 border-fail px-3 py-1.5 font-mono text-xs font-bold tracking-[0.3em] text-[#eb9d94] uppercase">
+            <div className="stamp-in flex shrink-0 items-center gap-2 rounded-sm border-2 border-fail px-3 py-1.5 font-mono text-xs font-bold tracking-[0.3em] text-[#eb9d94] uppercase">
               <TriangleAlert className="size-4" />
               Integrity failure
             </div>
