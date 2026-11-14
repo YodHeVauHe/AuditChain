@@ -32,8 +32,7 @@ export default function CoverSlide() {
 
         <Reveal delay={150}>
           <h1 className="mt-8 font-display text-[clamp(3rem,11vw,8.75rem)] leading-[0.95] tracking-tight">
-            <span className="text-cream">AuditLink</span>
-            <span className="text-gold-metal italic">Trail</span>
+            <span className="text-cream">ALT</span>
           </h1>
         </Reveal>
 
